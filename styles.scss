@@ -131,15 +131,15 @@ main {
 
     }
 
-    .project:nth-last-child(3)::after {
-        content: '...';
-        color: var(--white);
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 72px;
-    }
+    // .project:nth-last-child(3)::after {
+    //     content: '...';
+    //     color: var(--white);
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //     font-size: 72px;
+    // }
 
     $projectArr: (parcours: Parcours Interactif, microsite: Microsite, hero: Vous êtes le héros, megazord: Megazord);
 
